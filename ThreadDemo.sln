@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskContinue", "TaskContinu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitResult", "Await\AwaitResult.csproj", "{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncParallel", "AsyncParallel\AsyncParallel.csproj", "{A3F88CA7-9918-4AEE-81E2-35F8727065C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F88CA7-9918-4AEE-81E2-35F8727065C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F88CA7-9918-4AEE-81E2-35F8727065C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F88CA7-9918-4AEE-81E2-35F8727065C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F88CA7-9918-4AEE-81E2-35F8727065C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
