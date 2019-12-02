@@ -15,13 +15,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadLazy", "ThreadLazy\Th
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadCQueue", "ThreadCQueue\ThreadCQueue.csproj", "{6EAD2687-75BE-4884-95C6-DC855EFE9E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadInter", "ThreadInter\ThreadInter.csproj", "{65311569-DC44-44C1-9305-25E9BD7C0DBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadInter", "ThreadInter\ThreadInter.csproj", "{65311569-DC44-44C1-9305-25E9BD7C0DBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSemap", "ThreadMutex\ThreadSemap.csproj", "{EEE4E117-3944-48B7-809A-13C02ACBABF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSemap", "ThreadMutex\ThreadSemap.csproj", "{EEE4E117-3944-48B7-809A-13C02ACBABF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{008A07DA-E46C-49C8-B064-3C266DF23FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{008A07DA-E46C-49C8-B064-3C266DF23FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReptileZhiHu", "ReptileZhiHu\ReptileZhiHu.csproj", "{BE327879-EE97-4D67-AD75-7AC9E93C4EFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReptileZhiHu", "ReptileZhiHu\ReptileZhiHu.csproj", "{BE327879-EE97-4D67-AD75-7AC9E93C4EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo1", "ThreadPoolDemo1\ThreadPoolDemo1.csproj", "{558190F1-E773-4833-989C-4FB4758FCEEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendDemo", "ExtendDemo\ExtendDemo.csproj", "{58872982-0688-4701-8FC3-5DDBAC75B516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBase", "TaskBase\TaskBase.csproj", "{E6238AE1-BCE7-4406-A189-23E006DA2AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskContinue", "TaskContinue\TaskContinue.csproj", "{406C2AD3-7859-469C-B057-A21AC6AB4122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitResult", "Await\AwaitResult.csproj", "{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +79,26 @@ Global
 		{BE327879-EE97-4D67-AD75-7AC9E93C4EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE327879-EE97-4D67-AD75-7AC9E93C4EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE327879-EE97-4D67-AD75-7AC9E93C4EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558190F1-E773-4833-989C-4FB4758FCEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558190F1-E773-4833-989C-4FB4758FCEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558190F1-E773-4833-989C-4FB4758FCEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558190F1-E773-4833-989C-4FB4758FCEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58872982-0688-4701-8FC3-5DDBAC75B516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58872982-0688-4701-8FC3-5DDBAC75B516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58872982-0688-4701-8FC3-5DDBAC75B516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58872982-0688-4701-8FC3-5DDBAC75B516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6238AE1-BCE7-4406-A189-23E006DA2AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6238AE1-BCE7-4406-A189-23E006DA2AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6238AE1-BCE7-4406-A189-23E006DA2AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6238AE1-BCE7-4406-A189-23E006DA2AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406C2AD3-7859-469C-B057-A21AC6AB4122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406C2AD3-7859-469C-B057-A21AC6AB4122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406C2AD3-7859-469C-B057-A21AC6AB4122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406C2AD3-7859-469C-B057-A21AC6AB4122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F161DF-8323-4EAB-A0F4-ED230A68EBBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
